@@ -2,7 +2,7 @@
 ### Interactive CANopen SDO Tool for EDS Files  
 
 **Version:** `v0.1.0`  
-**Target:** `arm32v7` *(Raspberry Pi, etc.)*  
+**Target:** `arm32v7` *(BeagleBoard Black, Raspberry Pi, etc.)*  
 **Built with:** `Rust`, `ini`, `clap`, `inquire`, `hex`  
 **Tested on:** `OPTE6_20201028.eds` *(Vacon CANopen Option Board)*  
 
