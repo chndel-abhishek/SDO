@@ -1,0 +1,14 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  sdo-tool:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    platform: linux/arm/v7
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
+    command: /bin/bash
